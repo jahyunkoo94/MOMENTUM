@@ -8,3 +8,44 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+header {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+  color: wheat;
+  font-size: 20px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#login-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login-form input {
+  width: 200px;
+  height: 20px;
+}
+
+#clock {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 100px;
+}
+
+#quotes {
+  background-color: rgba(1, 1, 1, 0.5);
+  width: 500px;
+  height: 30px;
+  color: white;
+  font-size: 15px;
+}
